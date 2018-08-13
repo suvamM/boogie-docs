@@ -113,9 +113,9 @@ Examples:
 
 .. code-block:: boogie
 
-  var a:int;
-  var b:int;
-  var map:[int]int;
+  const a:int;
+  const b:int;
+  const map:[int]int;
   axiom {:some_attribute} a > b;
   axiom (forall x:int :: map[x] > a);
 
